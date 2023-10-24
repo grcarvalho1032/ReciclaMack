@@ -13,9 +13,9 @@ export default () => {
         height={{ md: 400, xs: "100%" }}
         display={"flex"}
         flexDirection={{ xs: "column" }} // define a direção dos itens (vertical para telas pequenas e horizontal para telas médias e acima)
-        justifyContent={"center"}
+        gap={2}
       >
-        <Box ml={10} mb={5}>
+        <Box ml={10} mb={5} >
           <Typography
             variant={"h4"}
             margin={2}
@@ -25,7 +25,7 @@ export default () => {
             Apoio Institucional
           </Typography>
         </Box>
-        <Box ml={10} mr={10}>
+        <Box ml={10} mr={10} display={"flex"} justifyContent={"space-evenly"}>
           <Image
             sx={{
               width: { md: 80 },
@@ -171,12 +171,12 @@ export default () => {
             Apoio Institucional
           </Typography>
         </Box>
-        <Box ml={10} mr={10} display={"flex"} flexDirection={"row"}>
+        <Box ml={10} mr={10} display={"flex"} flexDirection={"row"} justifyContent={"space-around"}>
           <Box borderRadius={20}>
             <Box
               borderRadius={2}
-              height={"40%"}
-              width={"20%"}
+              height={"20vh"}
+              width={"20vw"}
               display={"flex"}
               justifyContent={"center"}
               alignContent={"center"}
@@ -191,7 +191,8 @@ export default () => {
                 alt="Circuitos"
               />
             </Box>
-            <Box height={"60%"} width={"20%"} bgcolor={"primary.main"}>
+            <Box height={"20vh"} width={"20vw"} bgcolor={"primary.main"} display={"flex"} justifyContent={"center"} flexDirection={"column"} alignItems={"start"}
+              padding={6} borderRadius={2}>
               <Typography variant={"body1"} fontWeight={"bold"}>
                 Nomes:{" "}
                 <Typography variant={"body1"} component={"span"}>
@@ -215,8 +216,8 @@ export default () => {
           <Box borderRadius={20}>
             <Box
               borderRadius={2}
-              height={"40%"}
-              width={"20%"}
+              height={"20vh"}
+              width={"20vw"}
               display={"flex"}
               justifyContent={"center"}
               alignContent={"center"}
@@ -231,7 +232,8 @@ export default () => {
                 alt="Circuitos"
               />
             </Box>
-            <Box height={"60%"} width={"20%"} bgcolor={"primary.main"}>
+            <Box height={"20vh"} width={"20vw"} bgcolor={"primary.main"} display={"flex"} justifyContent={"center"} flexDirection={"column"} alignItems={"start"}
+              padding={6} borderRadius={2}>
               <Typography variant={"body1"} fontWeight={"bold"}>
                 Nomes:{" "}
                 <Typography variant={"body1"} component={"span"}>
@@ -255,8 +257,8 @@ export default () => {
           <Box borderRadius={20}>
             <Box
               borderRadius={2}
-              height={"40%"}
-              width={"20%"}
+              height={"20vh"}
+              width={"20vw"}
               display={"flex"}
               justifyContent={"center"}
               alignContent={"center"}
@@ -271,7 +273,8 @@ export default () => {
                 alt="Circuitos"
               />
             </Box>
-            <Box height={"60%"} width={"20%"} bgcolor={"primary.main"}>
+            <Box height={"20vh"} width={"20vw"} bgcolor={"primary.main"} display={"flex"} justifyContent={"center"} flexDirection={"column"} alignItems={"start"}
+              padding={6} borderRadius={2}>
               <Typography variant={"body1"} fontWeight={"bold"}>
                 Nomes:{" "}
                 <Typography variant={"body1"} component={"span"}>

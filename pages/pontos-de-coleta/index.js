@@ -1,10 +1,10 @@
 import { Box, Typography } from "@mui/material"
 
 
-export default () =>{
+export default () => {
     return (
         <div>
-            <Box 
+            <Box
                 color={"#FFF"}
                 display={"flex"}
                 flexDirection={"column"}
@@ -13,7 +13,7 @@ export default () =>{
                 width={"100%"}
                 height={"90vh"}
                 justifyContent={"space-between"}
-                >
+            >
                 <h1>Como separar os materiais de coleta?</h1>
                 <Box
                     display={"flex"}
@@ -41,10 +41,10 @@ export default () =>{
                         </Box>
                     </Box>
 
-                    <img src="Ativos_Recicla_Mack/banner1.png" style={{
-                        width:"35rem",
-                        height:"20rem",
-                    }}/>
+                    <img src="Ativos_Recicla_Mack/image 51.png" style={{
+                        width: "35rem",
+                        height: "20rem",
+                    }} />
 
                     <Box
                         display={"flex"}
@@ -67,7 +67,7 @@ export default () =>{
                 </Box>
             </Box>
 
-            <Box 
+            <Box
                 color={"#FFF"}
                 display={"flex"}
                 flexDirection={"row"}
@@ -104,7 +104,9 @@ export default () =>{
                     </Box>
                     <Box>
                         <h3>Locais - ponto de coleta n° 439</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante euismod, bibendum sapien vel, aliquet enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante euismod, bibendum sapien vel, aliquet enim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante euismod, bibendum sapien vel, aliquet enim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante euismod, bibendum sapien vel, aliquet enim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante euismod, bibendum sapien vel, aliquet enim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante euismod, bibendum sapien vel, aliquet enim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante euismod, bibendum sapien vel, aliquet enim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante euismod, bibendum sapien vel, aliquet enim.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque modi mollitia nihil, rerum
+                            quisquam voluptatem ipsa asperiores amet reiciendis vel totam quia quod? Magnam vero
+                            corporis vel eaque, ex debitis.</p>
                     </Box>
                 </Box>
                 <Box
@@ -114,9 +116,9 @@ export default () =>{
                     justifyContent={"center"}
                 >
                     <img src="Ativos_Recicla_Mack/banner2.png" style={{
-                        width:"75%",
-                        height:"60%",
-                    }}/>
+                        width: "75%",
+                        height: "60%",
+                    }} />
                 </Box>
             </Box>
         </div>
