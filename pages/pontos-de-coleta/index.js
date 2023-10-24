@@ -32,7 +32,7 @@ export default () => {
                             <Typography
                                 fontSize={".8rem"}
                             >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</Typography>
-                        </Box>
+                        </Box> 
                         <Box>
                             <h2>2° Etapa</h2>
                             <Typography
